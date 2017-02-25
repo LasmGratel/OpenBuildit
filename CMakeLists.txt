@@ -10,3 +10,5 @@ if(NOT CMAKE_BUILD_TYPE)
 		FORCE
 	)
 endif()
+
+add_subdirectory(libs/json)
